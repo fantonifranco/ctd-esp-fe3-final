@@ -50,14 +50,15 @@ footer {
   width: 90%;
   height: 40px;
   margin-top: 2rem;
+  flex-wrap: wrap;
 }
 
 footer > img{
-  width: 200px;
+  width: auto;
   margin: 0;
 }
 footer > p{
-  margin: 0;
+  margin: 5px;
   padding-top: 0.7rem;
 }
 

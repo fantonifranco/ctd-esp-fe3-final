@@ -24,7 +24,7 @@ const Card = ({ name, username, id }) => {
       {isFavorite ? (
         <button onClick={removeFromFav}>Remove from Fav</button>
       ) : (
-        <button onClick={addFav} className="favButton">ADD FAV <img src="../favicon.ico" alt='DH-ico' /></button>
+        <button onClick={addFav} className="favButton">ADD FAV</button>
       )}
       {/* <button onClick={() => navigateToDetail(id)}>Ver Detalles</button> */}
       <Link to={`/dentist/${id}`}>Ver Detalles</Link>
