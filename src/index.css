@@ -70,6 +70,13 @@ form{
   margin: 0 auto;
 }
 
+form > div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+  
+}
+
 .card{
   display: flex;
   justify-content: space-around;
@@ -80,13 +87,27 @@ form{
   border: 0.5px solid rgb(136, 136, 136);
 }
 
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card h2 {
+  margin: 5px;
+}
+
+.card p {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
 .card:hover{
   border: 0.5px solid rgb(206, 217, 142);
 }
 
 .card-grid{
   display: flex;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   gap: 1rem;
   width: 90vw;
   height: auto;
